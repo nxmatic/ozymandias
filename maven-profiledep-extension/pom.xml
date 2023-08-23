@@ -57,6 +57,7 @@
                 <version>1.5.5</version>
                 <executions>
                     <execution>
+                        <?m2e execute onConfiguration?>
                         <goals>
                             <goal>generate-metadata</goal>
                             <goal>generate-test-metadata</goal>
@@ -70,6 +71,7 @@
                 <version>1.1</version>
                 <executions>
                     <execution>
+                        <?m2e execute onConfiguration?>
                         <id>generate-index</id>
                         <goals>
                             <goal>main-index</goal>

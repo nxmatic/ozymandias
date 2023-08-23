@@ -7,8 +7,6 @@ package com.github.sviperll.maven.profiledep;
 
 import java.util.Collection;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.apache.maven.model.Profile;
 import org.apache.maven.model.building.ModelProblemCollector;
 import org.apache.maven.model.profile.ProfileActivationContext;
@@ -19,7 +17,7 @@ import org.apache.maven.model.profile.ProfileSelector;
  * @author vir
  */
 public class DependenciesProfileSelector implements ProfileSelector {
-    private static final Logger logger = Logger.getLogger(DependenciesProfileSelector.class.getName());
+    
     private final StrongDefaultActivationProfileSelector defaultProfileSelector;
 
     DependenciesProfileSelector(StrongDefaultActivationProfileSelector defaultProfileSelector) {
